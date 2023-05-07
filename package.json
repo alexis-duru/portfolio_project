@@ -1,8 +1,13 @@
 {
+  "scripts": {
+    "build": "npx parcel build index.html",
+    "start": "npx parcel index.html"
+  },
   "devDependencies": {
     "@parcel/transformer-glsl": "^2.8.3"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^4.36.0",
     "three": "^0.135.0"
   }
 }
